@@ -1,0 +1,125 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: F8FBFB;
+    height: 100%;
+}
+h1 {
+    font-size: 32px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 450;
+    margin: 0;
+}
+h2 {
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 450;
+    margin: 0;
+}
+p {
+    font-size: 11px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 350;
+    margin: 0;
+}
+.CV-paper{
+    display: flex;
+    flex-direction: row;
+    width: 595px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    width: 200px;
+    height: 100%;
+    background-color: #202628;
+    left: 0;
+    top: 0;
+    padding-bottom: 75px;
+}
+.main-part{
+    width: calc(100% - 200px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+.name-frame{
+    background-color: #91BCCA; 
+    color: #202628;
+    padding: 34px 67px 79px 28px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: fit-content;
+}
+
+.category-title {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    color: #F8FBFB;
+    gap: 14px;
+}
+
+.category-marker {
+    width: 168px;
+    height: 2px;
+    background-color: #91BCCA;
+}
+
+.subcategory {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.list-marker {
+    width: 24px;
+    height: 16px;
+    background-color: #91BCCA;
+}
+
+.category-text {
+    display: flex;
+    flex-direction: column;
+    color: #F8FBFB;
+    gap: 7px;
+}
+.category-text2 {
+    display: flex;
+    flex-direction: row;
+    color: #F8FBFB;
+    gap: 59px;
+}
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    padding: 29px 32px 29px 32px;
+    gap: 13px;
+}
+.profile-category {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.category-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.category-content-column {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    max-width: 200px;
+}
